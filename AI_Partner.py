@@ -73,7 +73,8 @@ st.title('外星智障AI')
 st.logo("ima/b.jpg")
 
 # 创建AI与客户交互
-client = OpenAI(api_key='sk-98aefce15d7c41f9afe40bbaa9512906', base_url="https://api.deepseek.com")
+# 填入api和url
+client = OpenAI(api_key='', base_url="")
 
 # 系统提示词
 system_prompt = """
